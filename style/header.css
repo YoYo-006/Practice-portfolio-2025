@@ -1,0 +1,113 @@
+
+/* pronlem */
+
+.navbar{
+  display: flex;
+  align-items: center;
+  max-width: 560px;
+  min-width: 550px;
+  width: 100%;
+  height: 62px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  /* margin-top: 20px; */
+  top: 20px;
+  box-shadow: rgba(10, 10, 10, 0.06) 0px 1.2px 1.2px 0px, rgba(10, 10, 10, 0.04) 0px 5px 10px 0px;
+}
+
+.nav-menu img{
+  height: 28px;
+}
+
+.left-section img{
+  height: 28px;
+  cursor: pointer;
+  /* margin-right: 10px; */
+}
+
+.middle-right-container{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 398px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+
+.left-section{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 27px;
+  /* margin-right: 198px; */
+}
+
+.nav-icons{
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.nav-icons:hover{
+  opacity: 1;
+}
+
+.middle-section{
+  height: 28px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.middle-section img{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.middle-section img:hover{
+  opacity: 1;
+}
+
+.nav-button{
+  height: 36px;
+  width: 92px;
+  padding: 0px 5px 0px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 0px solid black;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.right-section{
+  position: relative;
+  cursor: pointer;
+}
+
+.plus-icon{
+  position: absolute;
+  left: 7px;
+  top: 10px;
+}
+
+.plus-icon img{
+  height:15px;
+}
+
