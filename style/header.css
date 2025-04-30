@@ -128,7 +128,7 @@
 .project .tooltip,
 .middle-section .tooltip{
   position: absolute;
-  top: -25px;
+  top: -26px;
   /* left: -15px; */ 
   font-weight : 600;
   font-size: 15px;
