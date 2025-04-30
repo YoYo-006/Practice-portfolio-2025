@@ -1,0 +1,16 @@
+.main{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.maincont{
+  height: 600px;
+  width: 560px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+
+}

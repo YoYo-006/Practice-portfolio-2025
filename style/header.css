@@ -2,17 +2,16 @@
 /* pronlem */
 
 .navbar{
-  display: flex;
+  display: flex;  
   align-items: center;
   max-width: 560px;
   min-width: 550px;
-  width: 100%;
+  width: 100vw;
   height: 62px;
-  position: relative;
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
-  /* margin-top: 20px; */
-  top: 20px;
+  margin-top: 20px;
+  position: relative;
   box-shadow: rgba(10, 10, 10, 0.06) 0px 1.2px 1.2px 0px, rgba(10, 10, 10, 0.04) 0px 5px 10px 0px;
 }
 
@@ -111,3 +110,44 @@
   height:15px;
 }
 
+.home,
+.user,
+.project,
+.product,
+.middle-section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home .tooltip,
+.user .tooltip,
+.product .tooltip,
+.project .tooltip,
+.middle-section .tooltip{
+  position: absolute;
+  top: -25px;
+  /* left: -15px; */ 
+  font-weight : 600;
+  font-size: 15px;
+  background-color: #373737;
+  color: white;
+  padding: 2px 8px ;
+  border-radius: 8px;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  transition: opacity 0.22s ease-in-out;
+}
+
+.home:hover .tooltip,
+.user:hover .tooltip,
+.project:hover .tooltip,
+.product:hover .tooltip,
+.middle-section:hover .tooltip{
+  opacity: 1;
+}
